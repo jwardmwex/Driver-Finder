@@ -44,3 +44,13 @@
     box-shadow: 5px 5px 5px 5px #e9e6e6;
 
 }
+
+.img{
+    background-image: url(/images/bullhornanimate.png);
+    margin: 20px;
+    width: 50%;
+    padding: 10px;
+    box-shadow: 5px 5px 5px 5px #e9e6e6;
+    height: 200px;
+    ;
+}

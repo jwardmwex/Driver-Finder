@@ -8,10 +8,10 @@
 
 .box-main{
     /* width: 11vh; */
-    height: 1500px;
-    padding: 10px;
+    height: auto;
+    padding: 100px;
     border: 5px solid gray;
-    margin: auto;
+    margin:auto;
 }
 
 .container{
@@ -54,3 +54,22 @@
     height: 200px;
     ;
 }
+
+.main-title{
+   color: red;
+   font-size: 80px ;
+   margin-top: 150px;
+   margin: 10px;
+}
+
+.img{
+    display: flex;
+    margin-left:auto;
+    height: 50vh;
+    width: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px;
+    
+}
+

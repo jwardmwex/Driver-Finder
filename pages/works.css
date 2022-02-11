@@ -7,9 +7,8 @@
 }
 
 .box-main{
-    position:;
-    width: 68%;
-    height: 1000px;
+    /* width: 11vh; */
+    height: 1500px;
     padding: 10px;
     border: 5px solid gray;
     margin: auto;
@@ -21,26 +20,27 @@
     /* 15px is looking the best for screen coverage */
 
 }
+
+.card-holder{
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    
+}
 .card4{
-    /* width: 68%; */
-    height: 200px;
-    box-shadow: gray;
+    margin: 10px;
+    width: 50%;
+    padding: 10px;
     box-shadow: 5px 5px 5px 5px #e9e6e6;
-    background-position:center ;
-    background-repeat: no-repeat;
-    margin-bottom: 2.5px;
-    margin-top: 2.5px;
-    margin-left: 2.5px;
+    height: 200px;
 
 }
 
 .card5{
-    /* width: 68%; */
+    margin:10px;
+    width: 50%;
+    padding: 10px;
     box-shadow: 5px 5px 5px 5px #e9e6e6;
-    background-position:center ;
-    background-repeat: no-repeat;
-    margin-bottom: 2.5px;
-    margin-top: 2.5px;
-    margin-left: 2.5px;
 
 }

@@ -1,0 +1,46 @@
+.section-upper{
+    margin: 40px;
+    width: 100%px;
+    padding: 10px;
+    border: px solid #ffffff;
+    margin: 0;
+}
+
+.box-main{
+    /* width: 11vh; */
+    height: 1500px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: auto;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    /* 15px is looking the best for screen coverage */
+
+}
+
+.card-holder{
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    
+}
+.card4{
+    margin: 10px;
+    width: 50%;
+    padding: 10px;
+    box-shadow: 5px 5px 5px 5px #e9e6e6;
+    height: 200px;
+
+}
+
+.card5{
+    margin:10px;
+    width: 50%;
+    padding: 10px;
+    box-shadow: 5px 5px 5px 5px #e9e6e6;
+
+}

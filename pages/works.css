@@ -1,3 +1,9 @@
+.navbar-expand-md{
+    color: red;
+    display: flex;
+    font-size: 13px;
+}
+
 .section-upper{
     margin: 40px;
     width: 100%px;
@@ -75,6 +81,6 @@
 }
 .btn-outline-warning{
     color: red;
-    margin-left: 50%;
+    margin-left: 45%;
 }
 

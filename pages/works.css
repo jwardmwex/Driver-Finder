@@ -16,7 +16,7 @@
     /* width: 11vh; */
     height: auto;
     padding: 100px;
-    border: 5px solid gray;
+    border: 5px solid lightgrey;
     margin:auto;
 }
 
@@ -61,15 +61,21 @@
 } */
 
 .main-title{
-   color: red;
-   font-size: 80px ;
    margin-top: 150px;
    margin: 10px;
+   font-family: "Roboto";
+   font-size: 65px;
+   font-weight: 900;
+}
+
+.sub-title{
+    margin-left: 20px;
 }
 
 .img{
     background-image: url(/images/bullhornanimate.png);
-
+    background-color: #18bdd1;
+    margin: 1.5px;
     display: flex;
     margin: 20px;
     height: 30rem;
@@ -77,10 +83,32 @@
     background-repeat: no-repeat;
     background-position: center;
     padding: 20px;
+    border: solid 5px black;
     
 }
 .btn-outline-warning{
     color: red;
     margin-left: 45%;
+}
+
+.script-main{
+    font-size: larger;
+    font-weight: 600;
+}
+
+.title-main{
+    font-weight: 500;
+    margin: 1%;
+    margin-left: 20px;
+    font-size: 45px;
+    padding: 0%;
+}
+
+.script{
+    font-size: large;
+    font-weight: 600;
+    padding: 10%;
+    padding-top: 1.5%;
+    margin: 10px;
 }
 

@@ -37,23 +37,24 @@
     
 }
 .card4{
-    margin: 10px;
+    margin:40px;
     width: 50%;
     padding: 10px;
     box-shadow: 5px 5px 5px 5px #e9e6e6;
-    height: 200px;
     border: solid 5px black;
+    height: 300px;
     
 
 }
 
 .card5{
-    margin:10px;
+    margin:40px;
     width: 50%;
-    padding: 10px;
     box-shadow: 5px 5px 5px 5px #e9e6e6;
     border: solid 5px black;
-
+    height: 300px;
+    background-color: black;
+    
 
 }
 
@@ -120,4 +121,6 @@
     margin: 10px;
     padding-bottom: 1px;
 }
+
+
 

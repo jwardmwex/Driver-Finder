@@ -1,3 +1,6 @@
+.container-fluid{
+}
+
 .navbar-expand-md{
     color: red;
     display: flex;
@@ -43,7 +46,16 @@
     box-shadow: 5px 5px 5px 5px #e9e6e6;
     border: solid 5px black;
     height: 300px;
-    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)), url(/images/ca_truck_istock.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.card4-title{
+    font-size: 40px;
+    color: rgb(238, 171, 14);
 
 }
 
@@ -54,6 +66,8 @@
     border: solid 5px black;
     height: 300px;
     background-color: black;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5))
     
 
 }
@@ -97,7 +111,6 @@
 }
 .btn-outline-warning{
     color: red;
-    margin-left: 45%;
 }
 
 .script-main{

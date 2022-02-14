@@ -16,8 +16,10 @@
     /* width: 11vh; */
     height: auto;
     padding: 100px;
-    border: 5px solid lightgrey;
+    border: 5px solid black;
     margin:auto;
+    box-shadow: 5px 5px 5px 5px #e9e6e6;
+
 }
 
 .container{
@@ -40,6 +42,7 @@
     padding: 10px;
     box-shadow: 5px 5px 5px 5px #e9e6e6;
     height: 200px;
+    border: solid 5px black;
 
 }
 
@@ -48,6 +51,8 @@
     width: 50%;
     padding: 10px;
     box-shadow: 5px 5px 5px 5px #e9e6e6;
+    border: solid 5px black;
+
 
 }
 
@@ -84,6 +89,8 @@
     background-position: center;
     padding: 20px;
     border: solid 5px black;
+    box-shadow: 5px 5px 5px 5px #e9e6e6;
+
     
 }
 .btn-outline-warning{

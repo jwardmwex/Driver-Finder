@@ -20,7 +20,8 @@
     margin:3px;
     background-color: rgb(238, 171, 14);
     box-shadow: gray;
-    box-shadow: 5px 5px 5px 5px #e9e6e6;
+    /* box-shadow: 5px 5px 5px 5px #e9e6e6; */
+    border: solid black 1.3px;
 
 }
 .btn-outline-dark{
@@ -56,8 +57,7 @@
 }
 
 .card2{
-    box-shadow: gray;
-    box-shadow: 5px 5px 5px 5px #e9e6e6;
+    /* box-shadow: 5px 5px 5px 5px #e9e6e6; */
     background-position:50% 50% ;
     /* background-size: cover;
     background-repeat: no-repeat; */
@@ -65,6 +65,8 @@
     margin-top: 2.5px;
     margin-left: 2.5px;
     padding: 1px;
+    border: solid black 1.3px;
+
 
 }
 
@@ -88,15 +90,15 @@
 }
 
 .card3{
-    margin:2.5px;    box-shadow: 5px 5px 5px 5px #e9e6e6;
+    margin:2.5px; 
+    border: solid black 1.3px;
+
+    /* box-shadow: 5px 5px 5px 5px #c7c7c7; */
     margin:2.5px;
-    background-color: #5a5a5a;
-    box-shadow: gray;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.5)),  url(./images/happytrucks.png);
-   background: position content-box;
-   background-size:cover;
-   background-repeat: no-repeat;
+    rgba(0, 0, 0, 0.5)),  url(./images/cloverroad.png);
+    background: position content-box;   
+    background-size:cover;   background-repeat: no-repeat;
 }
 .card3-title{
     color: #f0ad4e;
@@ -131,7 +133,7 @@
     
 }
 .card4{
-    box-shadow: 5px 5px 5px 5px #e9e6e6;
+    /* box-shadow: 5px 5px 5px 5px #c7c7c7; */
     margin:2.5px;
     background-color: rgb(238, 171, 14);
     box-shadow: gray;
@@ -140,6 +142,8 @@
     background-position: center;
     background-size:cover;
     background-repeat: no-repeat;
+    border: solid black 1.3px;
+
 
 }
 
@@ -154,15 +158,16 @@
 
 }
 .card5{
-    box-shadow: 5px 5px 5px 5px #e9e6e6;
+    /* box-shadow: 5px 5px 5px 5px #c7c7c7; */
     margin:2.5px;
     background-color: #19bbcd;
     box-shadow: gray;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.5)),  url(./images/bullhornanimate.png);
+    rgba(0, 0, 0, 0.5)),  url(./images/tires.png);
     background-position:center;
     background-size:contain;
     background-repeat: no-repeat;
+    border: solid black 1.3px;
 
 }
 
@@ -198,7 +203,16 @@
     background-color: #5e5e5e;
     margin: 2.5px;
     box-shadow: gray;
-    box-shadow: 5px 5px 5px 5px #e9e6e6;
+    border: solid black 1.3px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)),  url(./images/bullhornanimate.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #19bbcd;
+
+    
+
+    /* box-shadow: 5px 5px 5px 5px #c7c7c7; */
 }
 .card6-title{
     color: rgb(238, 171, 14);
@@ -208,7 +222,9 @@
     background-color: #5e5e5e;
     margin: 2.5px;
     box-shadow: gray;
-    box-shadow: 5px 5px 5px 5px #e9e6e6;
+    border: solid black 1.3px;
+
+    /* box-shadow: 5px 5px 5px 5px #c7c7c7; */
 }
 .card7-title{
     color: rgb(238, 171, 14);

@@ -165,7 +165,7 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)),  url(./images/tires.png);
     background-position:center;
-    background-size:contain;
+    background-size:cover;
     background-repeat: no-repeat;
     border: solid black 1.3px;
 

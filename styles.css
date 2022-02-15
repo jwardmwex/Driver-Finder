@@ -59,11 +59,12 @@
     box-shadow: gray;
     box-shadow: 5px 5px 5px 5px #e9e6e6;
     background-position:50% 50% ;
-    background-size: cover;
-    background-repeat: no-repeat;
+    /* background-size: cover;
+    background-repeat: no-repeat; */
     margin-bottom: 2.5px;
     margin-top: 2.5px;
     margin-left: 2.5px;
+    padding: 1px;
 
 }
 

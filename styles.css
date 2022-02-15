@@ -160,7 +160,7 @@
 .card5{
     /* box-shadow: 5px 5px 5px 5px #c7c7c7; */
     margin:2.5px;
-    background-color: black;
+    background-color: #100f0e;
     box-shadow: gray;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)),  url(./images/tires.png);

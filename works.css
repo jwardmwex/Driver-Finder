@@ -1,3 +1,6 @@
+.container-fluid{
+}
+
 .navbar-expand-md{
     color: red;
     display: flex;
@@ -13,11 +16,13 @@
 }
 
 .box-main{
-    /* width: 11vh; */
     height: auto;
     padding: 100px;
-    border: 5px solid gray;
+    border: 5px solid black;
     margin:auto;
+    box-shadow: 5px 5px 5px 5px #e9e6e6;
+    padding-bottom: 1px;
+
 }
 
 .container{
@@ -35,19 +40,35 @@
     
 }
 .card4{
-    margin: 10px;
+    margin:40px;
     width: 50%;
     padding: 10px;
     box-shadow: 5px 5px 5px 5px #e9e6e6;
-    height: 200px;
+    border: solid 5px black;
+    height: 300px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)), url(/images/ca_truck_istock.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.card4-title{
+    font-size: 40px;
+    color: rgb(238, 171, 14);
 
 }
 
 .card5{
-    margin:10px;
+    margin:40px;
     width: 50%;
-    padding: 10px;
     box-shadow: 5px 5px 5px 5px #e9e6e6;
+    border: solid 5px black;
+    height: 300px;
+    background-color: black;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5))
+    
 
 }
 
@@ -61,15 +82,21 @@
 } */
 
 .main-title{
-   color: red;
-   font-size: 80px ;
    margin-top: 150px;
    margin: 10px;
+   font-family: "Roboto";
+   font-size: 65px;
+   font-weight: 900;
+}
+
+.sub-title{
+    margin-left: 20px;
 }
 
 .img{
     background-image: url(/images/bullhornanimate.png);
-
+    background-color: #18bdd1;
+    margin: 1.5px;
     display: flex;
     margin: 20px;
     height: 30rem;
@@ -77,10 +104,36 @@
     background-repeat: no-repeat;
     background-position: center;
     padding: 20px;
+    border: solid 5px black;
+    box-shadow: 5px 5px 5px 5px #e9e6e6;
+
     
 }
 .btn-outline-warning{
     color: red;
-    margin-left: 40%;
 }
+
+.script-main{
+    font-size: larger;
+    font-weight: 600;
+}
+
+.title-main{
+    font-weight: 500;
+    margin: 1%;
+    margin-left: 20px;
+    font-size: 45px;
+    padding: 0%;
+}
+
+.script{
+    font-size: large;
+    font-weight: 600;
+    padding: 10%;
+    padding-top: 1.5%;
+    margin: 10px;
+    padding-bottom: 1px;
+}
+
+
 

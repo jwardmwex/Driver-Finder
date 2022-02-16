@@ -1,18 +1,7 @@
-*{
-    
-    
 
-}
-.box.arrow-left:after {
-    content: " ";
-    position: absolute;
-    left: -15px;
-    top: 15px;
-    border-top: 15px solid transparent;
-    border-right: 15px solid black;
-    border-left: none;
-    border-bottom: 15px solid transparent;
-  }
+/* REMOVE THE ABOVE IF PASS ON BUBBLE */
+
+
 
 
 
@@ -45,6 +34,8 @@
 
 
 .card1-title {
+    text-shadow: 1px 1px 2px gray;
+
     border-radius: 20px;
     padding: 10px;
     font-weight: 900;
@@ -52,24 +43,27 @@
     display: block;
     inline-size: min-content;
     overflow-wrap: break-word;
-    margin-top: 20px;
-    margin-left: 20px;
+    margin-top: 5px;
+    margin-left: 5px;
     padding-right: 80px;
     font-style: normal;
     font-family: 'Roboto', sans-serif;  
       font-size: 40px;
-      border: solid black 1px;
+      box-shadow: 3px 3px 3px 3px #FFFFFF;
+
 }
 
 .sub-card{
     /* text-align: right; */
     display: block;
     /* inline-size: min-content; */
-    margin-left: 55%;
-    margin-top: 1px;
-    border: solid black 1px;
-    border-radius: 20px;
+    margin-left:55%;
+    margin-top: 15px;
     margin-right: 10px;
+    text-shadow: 1px 1px 2px gray;
+    box-shadow: 3px 3px 3px 3px #FFFFFF;
+    border-radius: 20px;
+    padding: 10px;
 
 }
 .card-text{

@@ -3,6 +3,16 @@
     
 
 }
+.box.arrow-left:after {
+    content: " ";
+    position: absolute;
+    left: -15px;
+    top: 15px;
+    border-top: 15px solid transparent;
+    border-right: 15px solid black;
+    border-left: none;
+    border-bottom: 15px solid transparent;
+  }
 
 
 
@@ -35,6 +45,8 @@
 
 
 .card1-title {
+    border-radius: 20px;
+    padding: 10px;
     font-weight: 900;
     text-align: left;
     display: block;
@@ -42,11 +54,23 @@
     overflow-wrap: break-word;
     margin-top: 20px;
     margin-left: 20px;
-    margin-bottom: 40px;
     padding-right: 80px;
     font-style: normal;
     font-family: 'Roboto', sans-serif;  
       font-size: 40px;
+      border: solid black 1px;
+}
+
+.sub-card{
+    /* text-align: right; */
+    display: block;
+    /* inline-size: min-content; */
+    margin-left: 55%;
+    margin-top: 1px;
+    border: solid black 1px;
+    border-radius: 20px;
+    margin-right: 10px;
+
 }
 .card-text{
     text-align: right;
@@ -57,10 +81,11 @@
 }
 
 .card2{
+    background-color: black;
     /* box-shadow: 5px 5px 5px 5px #e9e6e6; */
     background-position:50% 50% ;
-    /* background-size: cover;
-    background-repeat: no-repeat; */
+    /* /* background-size: cover; */
+    background-repeat: no-repeat; 
     margin-bottom: 2.5px;
     margin-top: 2.5px;
     margin-left: 2.5px;
@@ -173,7 +198,7 @@
 
 .card5-title{
     color: #f0ad4e;
-    margin-bottom: 79px;
+    margin-bottom: 45px;
     text-align: left;
     display: block;
     inline-size: min-content;

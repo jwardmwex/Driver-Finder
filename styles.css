@@ -2,6 +2,14 @@
 /* REMOVE THE ABOVE IF PASS ON BUBBLE */
 
 
+.carousel-item{
+    background-size: cover;
+    background-position: center;
+    padding: 0%;
+    width: 100%;
+    height: 100px ;
+}
+
 
 
 
@@ -18,6 +26,10 @@
 .card1{
     margin:3px;
     background-color: rgb(238, 171, 14);
+    background-repeat: no-repeat;
+    background-position: center
+    ;
+
     box-shadow: gray;
     /* box-shadow: 5px 5px 5px 5px #e9e6e6; */
     border: solid black 1.3px;

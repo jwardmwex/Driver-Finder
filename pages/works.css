@@ -1,19 +1,14 @@
 .container-fluid{
-}
-
-.navbar-expand-md{
-    color: red;
     display: flex;
-    font-size: 13px;
+    height: 100%;
+    width: 800px;
+    margin: 15px;
+    /* 15px is looking the best for screen coverage */
+
 }
 
-.section-upper{
-    margin: 40px;
-    width: 100%px;
-    padding: 10px;
-    border: px solid #ffffff;
-    margin: 0;
-}
+
+
 
 .box-main{
     height: auto;
@@ -70,16 +65,16 @@
     rgba(0, 0, 0, 0.5))
     
 
-}
+} */
 
-/* .img{
+ .img{
     margin: 20px;
     width: 50%;
     padding: 10px;
     box-shadow: 5px 5px 5px 5px #e9e6e6;
     height: 50rem;
     
-} */
+}
 
 .main-title{
    margin-top: 150px;
@@ -133,7 +128,7 @@
     padding-top: 1.5%;
     margin: 10px;
     padding-bottom: 1px;
-}
+} 
 
 
 
